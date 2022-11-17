@@ -1,21 +1,25 @@
 //NUM FERNANDA010 6545332 
-const emoji = require('emoji-poop');
-const grid = require ('./grid');
+import { grid } from "./grid";
 const GridHandler = class
 {
-    constructor(move, playerPosition)
+    constructor(numOfPoo)
     {
-        this.field = field
+        this.numOfPoo = numOfPoo;
+
     }
 
     pooDropper()
     {
-        let poo = 0;
-
-
+        for (let i = 0; i < numOfPoo; i++)
+        {
+           let poo =  Math.floor(math.random()* this.numOfPoo);
+           grid[poo] = "poo"
+        }
     }
+
+    
+
 }
 
-console.log(emoji)
 
-module.exports = GridHandler;
+export {GridHandler};

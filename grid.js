@@ -1,3 +1,3 @@
-let grid = ["| o |","| o |","| o |","| o |","| o |","| o |","| o |","| o |","| o |"]
+let grid = ["empty","empty","empty","empty","empty","empty","empty","empty","empty"]
 
-module.exports = grid;
+export {grid}

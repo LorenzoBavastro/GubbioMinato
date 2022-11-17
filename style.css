@@ -1,0 +1,158 @@
+body 
+{
+    background-color: rgba(33, 31, 31, 0.961);
+}
+
+.title
+{
+    align-items: center;
+    align-content: center;
+    
+}
+
+.titleForm
+{
+    width: fit-content;
+    margin: auto;
+
+}
+
+.GubbioMinato
+{
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    background: rgba(251, 17, 17, 0.249);
+    color: rgb(205, 57, 24);
+    box-shadow: 2px 2px 4px rgba(120, 23, 45, 0.4);
+    border-radius: 10px;
+    padding: 3px 10px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+
+.tableContainer
+{
+    margin-left: 5%;
+    width: 65%;
+    height: 90%;
+    float: inline-start;
+    padding: 5px;
+}
+
+.buttonContainer
+{
+    margin-top: 17.5%;
+    margin-right: 5%;
+    width: auto;
+    float: inline-end;
+    padding: 5px;
+}
+
+table
+  {
+      height:100%;
+      width: 100%;
+      border: 3px solid rgba(143, 12, 12, 0.482);
+      background-color: rgba(219, 84, 21, 0.598);
+      box-shadow: 4px 4px 8px rgba(160, 45, 21, 0.459);
+      border-radius: 5px;
+      align-items: left;
+     
+  }
+
+  tr,td
+{
+    height:9%;
+    width: 7%;
+    border: 3px solid black;
+    background-color: rgb(120, 114, 122);
+    text-align: center;
+    border-radius: 5px;
+}
+
+td:hover
+{
+    background-color: rgba(194, 38, 38, 0.628);
+    opacity: 70%;
+    border-radius: 5px;
+}
+
+.buttonPosition
+{
+    align-items: right;
+    float: inline-end;
+}
+.buttonUp
+{
+    margin-left: auto;
+    margin-right: 43%;
+    border: 2px solid rgb(167, 28, 4);
+    box-shadow: -2px -5px 8px rgba(160, 45, 21, 0.459);
+    padding: 10px;
+    font-size: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    justify-content: center;
+    float: center;
+}
+
+.buttonLeft
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(167, 28, 4);
+    padding: 10px;
+    font-size: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: inline-start;
+}
+
+.buttonRight
+{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(167, 28, 4);
+    padding: 10px;
+    font-size: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    float:inline-end;
+    align-items: center;
+}
+
+.buttonDown
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(167, 28, 4);
+    padding: 10px;
+    font-size: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+}
